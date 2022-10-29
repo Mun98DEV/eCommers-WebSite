@@ -1,0 +1,190 @@
+/* start design login form */
+.login{
+     width: 350px;
+     margin: 150px auto;
+}
+
+.login h4{
+     color: #888;
+}
+
+.login input{
+     margin-bottom: 10px;
+}
+
+.login .form-control{
+     background-color: #EAEAEA;
+}
+
+.login .btn{
+     background-color: #008dde;
+}
+/* end design login form */
+
+/* start design members page */
+h1{
+     font-size: 55px;
+     margin: 40px 0;
+     font-weight: bold;
+     color: #666;
+}
+
+.main-table tr:first-child td{
+     margin-top: 10px;
+     background-color: #333;
+     color: #FFF;
+     text-align: center;
+}
+/* end design members page */
+
+/* start dashboard design */
+.stat{
+     background-color: #EEE;
+     color: #FFF;
+     padding: 20px;
+     font-size: 20px;
+     border-radius: 10px;
+     overflow: hidden;
+     position: relative;
+}
+
+.home-stats .stat .info{
+     float: right;
+}
+
+.home-stats .stat i{
+     position: absolute;
+     font-size: 90px;
+     top: 35px;
+     left: 30px;
+}
+
+.home-stats .stat span{
+     display: block;
+     font-size: 50px;
+}
+
+.st-members{
+     background-color: #3498db;
+}
+.st-members a{
+     color: whitesmoke;
+     text-decoration: none;
+}
+.st-pending{
+     background-color: #1abc9c;
+}
+.st-items{
+     background-color: #d35400;
+}
+.st-comments{
+     background-color: #9b59b6;
+}
+
+.last{
+     margin-top: 30px;
+}
+
+.last .last-users{
+     overflow: hidden;
+}
+
+.activate{
+     margin-left: 4.5px;
+}
+
+.last-users{
+     margin-bottom: 0px;
+}
+
+.last-users li{
+     padding: 8px;
+     overflow: hidden;
+}
+
+.last-users .btn{
+     padding: 3px 8px;
+}
+
+.last-users .btn a{
+     text-decoration: none;
+     color: white;
+}
+/* end dashboard design */
+
+/* satrt categories design */
+.categories .panel-body{
+     padding: 0px;
+}
+
+.panel-heading .ordering span{
+     color: black;
+     font-weight: bolder;
+}
+
+.panel-heading .ordering a{
+     color: black;
+     font-weight: bolder; text-decoration: none;
+}
+.panel-heading .ordering a:hover{
+     color: #d35400;
+}
+
+.categories .cats{
+     position: relative;
+     padding: 15px;
+     overflow: hidden;
+}
+.categories .cats:hover{
+     background-color: #dcf38b;
+}
+.categories .cats:hover .hidden-buttons{
+     right: 10px;
+}
+
+.categories .cats .hidden-buttons{
+     transition: all .5s ease-in-out;
+     position: absolute;
+     top: 30px;
+     right: -170px;
+}
+
+.categories .cats .hidden-buttons a{
+     margin-right: 5px;
+}
+.categories .cats h3{
+     margin: 0px 0px 10px;
+}
+
+.categories .cats .visible{
+     background-color: #c0392b;
+     color: #FFF;
+     padding: 4px 6px;
+     margin-right: 5px;
+     border-radius: 5px;
+}
+
+.categories .cats .comments{
+     background-color: #2c3e50;
+     color: #FFF;
+     padding: 4px 6px;
+     margin-right: 5px;
+     border-radius: 5px;
+}
+
+.categories .cats .ads{
+     background-color: #c0392b;
+     color: #FFF;
+     padding: 4px 6px;
+     margin-right: 5px;
+     border-radius: 5px;
+}
+
+.cats h3{
+     cursor: pointer;
+}
+.panel-heading{
+     padding: 10px 0px 10px 0;
+}
+/* end categories design */
+
